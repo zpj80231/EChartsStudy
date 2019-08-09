@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>China Map</title>
+
+	<style>
+		body{
+            background-color:#DCDCDC;
+        }
+        #zzbq{
+        	text-align: center;
+            margin:0 auto;
+            margin-top: 3%;
+            width:800px; height:10px;
+
+        }
+        #zzbq a{ text-decoration:none }
+        #github{
+            margin:0 auto;
+            padding-left: 3%;
+            width:800px; height:0px;
+        }
+        #github a{ font-weight: bold;text-decoration:none; }
+		#mapECharts{
+			margin: auto;
+			margin-top: 3%;
+			width:800px; height:600px;
+			border: 1px solid black;
+		}
+	</style>
+
+</head>
+<body>
+
+	<div id='zzbq'>
+        <span style='font-weight: bold;'>其他图：</span>
+        <a href="../echarts3_line/index.html">柱+折线图</a>
+        <a href="../echarts3_pie/index.html">饼图</a>
+        <a href="../echarts3_map_China/index.html">迁徙图</a>
+        <a href="../echarts3_map_baiduApi/index.html">接入百度地图</a>
+        
+    </div>
+
+    <div id='github'>
+    	<a href="https://github.com/zpj80231/EChartsStudy">github源码</a>
+    </div>
+
+	<div id="mapECharts"></div>
+
+	<!-- <script src="./lib/echarts_3.5.4.js"></script> -->
+    <script src="../echarts3_line/echarts4.2.js"></script>
+	<script src="./lib/china.js"></script>
+	<script src="./lib/world.js"></script>
+	<script src="index.js"></script>
+	
+</body>
+</html>
